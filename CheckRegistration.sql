@@ -4,7 +4,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-ALTER procedure [dbo].[RegWeb1]
+CREATE procedure [dbo].[RegWeb1]
 @case int out , @Username varchar(50),@Email varchar(50), 
 @Password varchar(50)
 as
