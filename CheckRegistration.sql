@@ -10,7 +10,7 @@ ALTER procedure [dbo].[RegWeb1]
 as
 if exists(select * from Table2 where Username = @Username)
 begin
---___We check registration success with usernames if both of them are the same case return 1__--
+--___We check registration success with usernames if both of them are the same case return 1 __--
 set @case = 1
 return @case 
 end
